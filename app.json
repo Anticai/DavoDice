@@ -1,0 +1,48 @@
+{
+  "name": "BloodBowlDiceCalculator",
+  "displayName": "Blood Bowl Dice Calculator",
+  "version": "1.0.0",
+  "description": "A dice calculator app for Blood Bowl players",
+  "author": "Andy Davo",
+  "bundleId": "com.bloodbowldicecalculator",
+  "orientation": "portrait",
+  "backgroundColor": "#7B2CBF",
+  "icon": "./src/assets/images/app-icon.png",
+  "splash": {
+    "image": "./src/assets/images/splash.png",
+    "resizeMode": "contain",
+    "backgroundColor": "#7B2CBF"
+  },
+  "updates": {
+    "fallbackToCacheTimeout": 0,
+    "checkAutomatically": "ON_LOAD"
+  },
+  "assetBundlePatterns": [
+    "**/*"
+  ],
+  "android": {
+    "package": "com.bloodbowldicecalculator",
+    "adaptiveIcon": {
+      "foregroundImage": "./src/assets/images/adaptive-icon.png",
+      "backgroundColor": "#7B2CBF"
+    },
+    "versionCode": 1,
+    "permissions": [
+      "VIBRATE"
+    ],
+    "softwareKeyboardLayoutMode": "resize"
+  },
+  "ios": {
+    "bundleIdentifier": "com.bloodbowldicecalculator",
+    "buildNumber": "1",
+    "supportsTablet": true,
+    "infoPlist": {
+      "UIBackgroundModes": [
+        "audio"
+      ]
+    }
+  },
+  "web": {
+    "favicon": "./src/assets/images/favicon.png"
+  }
+}

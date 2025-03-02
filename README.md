@@ -23,8 +23,8 @@ A mobile application for Blood Bowl players to calculate dice probabilities and 
 
 1. Clone the repository:
 ```
-git clone https://github.com/andydavo/blood-bowl-dice-calculator.git
-cd blood-bowl-dice-calculator
+git clone https://github.com/Anticai/DavoDice.git
+cd DavoDice
 ```
 
 2. Install dependencies:

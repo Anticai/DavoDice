@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" android:width="24dp" android:height="24dp" android:viewportWidth="0 0 1024 1024" android:viewportHeight="0 0 1024 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1024" height="1024" rx="220" fill="#7B2CBF"/>
+  
+  <!-- Dice Outline -->
+  <rect x="212" y="212" width="600" height="600" rx="100" fill="#FFFFFF" />
+  
+  <!-- Dice Face -->
+  <rect x="262" y="262" width="500" height="500" rx="50" fill="#580D8C" />
+  
+  <!-- Dice Dots -->
+  <circle cx="362" cy="362" r="40" fill="#FFFFFF" />
+  <circle cx="512" cy="512" r="40" fill="#FFFFFF" />
+  <circle cx="662" cy="662" r="40" fill="#FFFFFF" />
+  
+  <!-- Highlight -->
+  <circle cx="362" cy="662" r="40" fill="#FFFFFF" />
+  <circle cx="662" cy="362" r="40" fill="#FFFFFF" />
+  
+  <!-- Calculator Element -->
+  <rect x="212" y="750" width="600" height="150" rx="40" fill="#FFFFFF" />
+  <rect x="262" y="780" width="500" height="90" rx="20" fill="#580D8C" />
+  <text x="512" y="845" text-anchor="middle" font-family="Arial, sans-serif" font-size="60" font-weight="bold" fill="#FFFFFF">4+</text>
+</vector> 
