@@ -65,3 +65,19 @@
 -keepattributes SourceFile,LineNumberTable
 
 # Add any additional rules specific to your app here
+
+# Keep our React-Native classes
+-keep class com.bloodbowldicecalculator.** { *; }
+
+# React Native
+-keep class com.facebook.react.** { *; }
+-keep class com.facebook.hermes.** { *; }
+-keep class com.facebook.jni.** { *; }
+
+# Keep Hermes engine
+-keep class com.facebook.hermes.unicode.** { *; }
+-keep class com.facebook.jni.** { *; }
+
+# Reanimated 2
+-keep class com.swmansion.reanimated.** { *; }
+-keep class com.facebook.react.turbomodule.** { *; }

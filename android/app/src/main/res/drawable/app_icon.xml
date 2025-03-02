@@ -1,25 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
-<vector xmlns:android="http://schemas.android.com/apk/res/android" android:width="24dp" android:height="24dp" android:viewportWidth="0 0 1024 1024" android:viewportHeight="0 0 1024 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <!-- Background -->
-  <rect width="1024" height="1024" rx="220" fill="#7B2CBF"/>
-  
-  <!-- Dice Outline -->
-  <rect x="212" y="212" width="600" height="600" rx="100" fill="#FFFFFF" />
-  
-  <!-- Dice Face -->
-  <rect x="262" y="262" width="500" height="500" rx="50" fill="#580D8C" />
-  
-  <!-- Dice Dots -->
-  <circle cx="362" cy="362" r="40" fill="#FFFFFF" />
-  <circle cx="512" cy="512" r="40" fill="#FFFFFF" />
-  <circle cx="662" cy="662" r="40" fill="#FFFFFF" />
-  
-  <!-- Highlight -->
-  <circle cx="362" cy="662" r="40" fill="#FFFFFF" />
-  <circle cx="662" cy="362" r="40" fill="#FFFFFF" />
-  
-  <!-- Calculator Element -->
-  <rect x="212" y="750" width="600" height="150" rx="40" fill="#FFFFFF" />
-  <rect x="262" y="780" width="500" height="90" rx="20" fill="#580D8C" />
-  <text x="512" y="845" text-anchor="middle" font-family="Arial, sans-serif" font-size="60" font-weight="bold" fill="#FFFFFF">4+</text>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <path
+        android:fillColor="#3498DB"
+        android:pathData="M0,0h108v108h-108z" />
+    
+    <path
+        android:fillColor="#2980B9"
+        android:pathData="M18,18h72v72h-72z" />
+    
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M30,30h48v48h-48z" />
+    
+    <path
+        android:fillColor="#E74C3C"
+        android:pathData="M54,42 A6,6 0 1,1 54,30 A6,6 0 1,1 54,42z" />
+    
+    <path
+        android:fillColor="#E74C3C"
+        android:pathData="M54,78 A6,6 0 1,1 54,66 A6,6 0 1,1 54,78z" />
+    
+    <path
+        android:fillColor="#E74C3C"
+        android:pathData="M42,54 A6,6 0 1,1 30,54 A6,6 0 1,1 42,54z" />
+    
+    <path
+        android:fillColor="#E74C3C"
+        android:pathData="M78,54 A6,6 0 1,1 66,54 A6,6 0 1,1 78,54z" />
+    
+    <path
+        android:fillColor="#E74C3C"
+        android:pathData="M70,70 A6,6 0 1,1 58,58 A6,6 0 1,1 70,70z" />
+    
+    <path
+        android:fillColor="#2C3E50"
+        android:pathData="M50,51h8v6h-8z" />
+    
+    <path
+        android:fillColor="#2C3E50"
+        android:pathData="M47,58h14v3h-14z" />
+    
+    <path
+        android:fillColor="#2C3E50"
+        android:pathData="M54,54 L54,54 L54,54 L54,54 Z"
+        android:strokeWidth="1"
+        android:strokeColor="#2C3E50" />
 </vector> 
