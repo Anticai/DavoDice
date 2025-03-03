@@ -1,3 +1,14 @@
+// Force JDK 17 explicitly
+allprojects {
+    tasks.withType(JavaCompile) {
+        options.fork = true
+        options.forkOptions.javaHome = file("C:\\Program Files\\Java\\jdk-17")
+    }
+}
+
+// Set Java home using system properties
+System.setProperty("org.gradle.java.home", "C:\\Program Files\\Java\\jdk-17")
+
 buildscript {
     ext {
         buildToolsVersion = "35.0.0"

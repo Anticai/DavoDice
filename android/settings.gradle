@@ -4,3 +4,6 @@ extensions.configure(com.facebook.react.ReactSettingsExtension){ ex -> ex.autoli
 rootProject.name = 'BloodBowlDiceCalculator'
 include ':app'
 includeBuild('../node_modules/@react-native/gradle-plugin')
+
+// JavaHome setting for JDK 17
+gradle.ext.javaHome = "C:\\Program Files\\Java\\jdk-17"
